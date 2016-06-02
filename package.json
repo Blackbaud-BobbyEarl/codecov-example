@@ -15,7 +15,7 @@
     "postinstall": "tsd install",
     "pretest": "tsc test/*.ts --module commonjs --sourcemap",
     "test": "nyc mocha",
-    "posttest": "nyc report --reporter=json && codecov -f coverage/*.json"
+    "posttest": "nyc report --reporter=json && codecov -f coverage/*.json -t 22dbdc68-e859-45f5-9f5b-f8c80d03bb74"
   },
   "repository": {
     "type": "git",
